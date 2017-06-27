@@ -10,6 +10,7 @@ import { BrexchangeDirective } from './brexchange.directive';
 import { NavComponent } from './nav/nav.component';
 import { PolionexComponent } from './polionex/polionex.component';
 import { BitvalorComponent } from './bitvalor/bitvalor.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { BitvalorComponent } from './bitvalor/bitvalor.component';
     NavComponent,
     PolionexComponent,
     BitvalorComponent,
+    CalculatorComponent,
   ],
   imports: [
     BrowserModule,
