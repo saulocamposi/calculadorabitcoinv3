@@ -4,13 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { FoxbitComponent } from './foxbit/foxbit.component';
 import { BrexchangeComponent } from './brexchange/brexchange.component';
-import { BrexchangeDirective } from './brexchange.directive';
 import { NavComponent } from './nav/nav.component';
 import { PolionexComponent } from './polionex/polionex.component';
 import { BitvalorComponent } from './bitvalor/bitvalor.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { FooterComponent } from './footer/footer.component';
+import { BtcvarejoComponent } from './btcvarejo/btcvarejo.component';
+import { BlinktradeComponent } from './blinktrade/blinktrade.component';
+import { TradesfoxbitComponent } from './tradesfoxbit/tradesfoxbit.component';
+import { WalletfoxbitComponent } from './walletfoxbit/walletfoxbit.component';
+import { OrdersfoxbitComponent } from './ordersfoxbit/ordersfoxbit.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,12 @@ import { CalculatorComponent } from './calculator/calculator.component';
     PolionexComponent,
     BitvalorComponent,
     CalculatorComponent,
+    FooterComponent,
+    BtcvarejoComponent,
+    BlinktradeComponent,
+    TradesfoxbitComponent,
+    WalletfoxbitComponent,
+    OrdersfoxbitComponent,
   ],
   imports: [
     BrowserModule,
